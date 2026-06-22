@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Голос SIMS-2</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+    <div class="logo">
+        SIMS-2
+    </div>
+    <nav>
+        <a href="#about">О проекте</a>
+        <a href="#process">Как работает</a>
+        <a href="#privacy">Анонимность</a>
+        <a href="#form">Форма</a>
+    </nav>
+</div>
+</header>
+<section class="hero">
+<div class="container">
+    <div class="variant-panel">
+        <span>Варианты названия:</span>
+        <button onclick="changeVariant(0)">Голос SIMS-2</button>
+        <button onclick="changeVariant(1)">Открытый диалог</button>
+        <button onclick="changeVariant(2)">SIMS-2 слушает</button>
+        <button onclick="changeVariant(3)">Ваш вопрос — в повестку</button>
+        <button onclick="changeVariant(4)">Диалог с руководством</button>
+    </div>
+    <h1 id="projectName">
+        Голос SIMS-2
+    </h1>
+    <p id="projectDescription">
+        Площадка для вопросов, предложений и обратной связи сотрудников.
+        Здесь можно поднять важную тему для обсуждения на полугодовой встрече с руководством.
+    </p>
+    <a href="#form" class="btn">
+        Оставить обращение
+    </a>
+</div>
+</section>
+<section id="about" class="section">
+<div class="container">
+    <h2>Мы хотим слышать каждого</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Процессы</h3>
+            <p>Что мешает работать быстрее и эффективнее.</p>
+        </div>
+        <div class="card">
+            <h3>Коммуникация</h3>
+            <p>Что можно улучшить во взаимодействии между командами.</p>
+        </div>
+        <div class="card">
+            <h3>Условия работы</h3>
+            <p>Все, что влияет на ежедневную работу сотрудников.</p>
+        </div>
+        <div class="card">
+            <h3>Идеи</h3>
+            <p>Предложения по развитию компании.</p>
+        </div>
+    </div>
+</div>
+</section>
+<section id="process" class="section">
+<div class="container">
+    <h2>Как это работает</h2>
+    <div class="steps">
+        <div class="step">1. Вы оставляете обращение</div>
+        <div class="step">2. Информация поступает в систему</div>
+        <div class="step">3. Темы анализируются</div>
+        <div class="step">4. Руководство получает сводку</div>
+        <div class="step">5. Формируется повестка встречи</div>
+        <div class="step">6. Компания возвращается с ответами</div>
+    </div>
+</div>
+</section>
+<section id="privacy" class="section">
+<div class="container">
+    <h2>Анонимность гарантирована</h2>
+    <ul>
+        <li>Мы не собираем ФИО</li>
+        <li>Мы не собираем телефоны</li>
+        <li>Мы не собираем почту</li>
+        <li>Мы не отслеживаем авторов сообщений</li>
+    </ul>
+</div>
+</section>
+<section id="form" class="section">
+<div class="container">
+    <h2>Оставить обращение</h2>
+    <!-- СЮДА ВСТАВИТЬ TALLY -->
+    <div class="form-placeholder">
+        Здесь будет форма Tally
+    </div>
+</div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
