@@ -1,156 +1,290 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Голос SIMS-2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Голос SIMS-2</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="header">
-    <div class="container">
-    <div class="logo">
-        SIMS-2
-    </div>
-    <nav>
-        <a href="#about">О проекте</a>
-        <a href="#process">Как работает</a>
-        <a href="#privacy">Анонимность</a>
-        <a href="#form">Форма</a>
-    </nav>
+<div class="container header-inner">
+<a class="logo" href="#">
+<span class="logo-mark">S</span>
+<span>SIMS-2</span>
+</a>
+<nav class="nav">
+<a href="#about">О проекте</a>
+<a href="#process">Как работает</a>
+<a href="#privacy">Анонимность</a>
+<a href="#form">Оставить вопрос</a>
+</nav>
 </div>
 </header>
+<main>
 <section class="hero">
-
-<div class="container hero-layout">
-
-<div class="hero-content">
-
-<div class="variant-panel">
-
-<span>Варианты названия для согласования:</span>
-
-<button onclick="changeVariant(0)">Голос SIMS-2</button>
-<button onclick="changeVariant(1)">Открытый диалог</button>
-<button onclick="changeVariant(2)">SIMS-2 слушает</button>
-<button onclick="changeVariant(3)">Ваш вопрос — в повестку</button>
-<button onclick="changeVariant(4)">Диалог с руководством</button>
-
+<div class="container hero-grid">
+<div>
+<div class="eyebrow">
+Внутренний проект обратной связи
 </div>
-
-<h1 id="projectName">
+<h1>
 Голос SIMS-2
 </h1>
-
-<p id="projectDescription">
-
+<p class="hero-text">
 Площадка, где сотрудники SIMS-2 могут анонимно задать вопрос руководству,
 предложить идею или обозначить тему для обсуждения на полугодовой встрече.
-
 </p>
-
-<div class="hero-buttons">
-
-<a href="#form" class="btn">
-Оставить обращение
+<div class="hero-actions">
+<a href="#form" class="btn btn-primary">
+Оставить обратную связь
 </a>
-
-<a href="#process" class="btn-outline">
+<a href="#process" class="btn btn-secondary">
 Как это работает
 </a>
-
 </div>
-
 </div>
-
-<div class="hero-info">
-
+<div class="hero-card">
 <h3>
-Ваш голос помогает:
+Для чего это нужно
 </h3>
-
-<div class="info-item">
-<span>01</span>
-Улучшать рабочие процессы
+<ul>
+<li>
+Собирать вопросы сотрудников к руководству
+</li>
+<li>
+Формировать повестку полугодовых встреч
+</li>
+<li>
+Видеть повторяющиеся темы и системные вопросы
+</li>
+<li>
+Улучшать процессы, условия работы и коммуникацию
+</li>
+</ul>
 </div>
-
-<div class="info-item">
-<span>02</span>
-Выявлять системные вопросы
 </div>
-
-<div class="info-item">
-<span>03</span>
-Формировать диалог с руководством
-</div>
-
-<div class="info-item">
-<span>04</span>
-Развивать компанию вместе
-
-</div>
-
-</div>
-
-</div>
-
 </section>
 <section id="about" class="section">
 <div class="container">
-    <h2>Мы хотим слышать каждого</h2>
-    <div class="cards">
-        <div class="card">
-            <h3>Процессы</h3>
-            <p>Что мешает работать быстрее и эффективнее.</p>
-        </div>
-        <div class="card">
-            <h3>Коммуникация</h3>
-            <p>Что можно улучшить во взаимодействии между командами.</p>
-        </div>
-        <div class="card">
-            <h3>Условия работы</h3>
-            <p>Все, что влияет на ежедневную работу сотрудников.</p>
-        </div>
-        <div class="card">
-            <h3>Идеи</h3>
-            <p>Предложения по развитию компании.</p>
-        </div>
-    </div>
+<div class="section-title">
+<h2>
+Мы хотим слышать каждого
+</h2>
+<p>
+Голос SIMS-2 помогает собрать обратную связь сотрудников
+в одном месте и превратить её в понятную повестку для руководства.
+</p>
+</div>
+<div class="cards">
+<div class="card">
+<span>
+01
+</span>
+<h3>
+Процессы
+</h3>
+<p>
+Что мешает работать быстрее, понятнее и эффективнее.
+</p>
+</div>
+<div class="card">
+<span>
+02
+</span>
+<h3>
+Коммуникация
+</h3>
+<p>
+Где не хватает информации, согласованности или обратной связи.
+</p>
+</div>
+<div class="card">
+<span>
+03
+</span>
+<h3>
+Условия работы
+</h3>
+<p>
+Что влияет на комфорт, безопасность и ежедневную работу.
+</p>
+</div>
+<div class="card">
+<span>
+04
+</span>
+<h3>
+Идеи
+</h3>
+<p>
+Предложения по развитию компании и улучшениям.
+</p>
+</div>
+</div>
 </div>
 </section>
-<section id="process" class="section">
+<section id="process" class="section section-light">
 <div class="container">
-    <h2>Как это работает</h2>
-    <div class="steps">
-        <div class="step">1. Вы оставляете обращение</div>
-        <div class="step">2. Информация поступает в систему</div>
-        <div class="step">3. Темы анализируются</div>
-        <div class="step">4. Руководство получает сводку</div>
-        <div class="step">5. Формируется повестка встречи</div>
-        <div class="step">6. Компания возвращается с ответами</div>
-    </div>
+<div class="section-title">
+<h2>
+Как это работает
+</h2>
+<p>
+После отправки обращение не теряется.
+Темы анализируются и формируются для обсуждения с руководством.
+</p>
+</div>
+<div class="steps">
+<div class="step">
+<b>
+1
+</b>
+<h3>
+Вы оставляете вопрос
+</h3>
+<p>
+Можно написать вопрос, идею, комментарий или предложение.
+</p>
+</div>
+<div class="step">
+<b>
+2
+</b>
+<h3>
+Ответы собираются
+</h3>
+<p>
+Все обращения попадают в единую систему без персональных данных.
+</p>
+</div>
+<div class="step">
+<b>
+3
+</b>
+<h3>
+Темы группируются
+</h3>
+<p>
+Повторяющиеся вопросы объединяются для анализа.
+</p>
+</div>
+<div class="step">
+<b>
+4
+</b>
+<h3>
+Готовится аналитика
+</h3>
+<p>
+Руководство получает сводную информацию по главным темам.
+</p>
+</div>
+<div class="step">
+<b>
+5
+</b>
+<h3>
+Темы выходят на встречу
+</h3>
+<p>
+Ключевые вопросы включаются в повестку полугодовой встречи.
+</p>
+</div>
+<div class="step">
+<b>
+6
+</b>
+<h3>
+Появляются решения
+</h3>
+<p>
+Компания возвращается к сотрудникам с итогами и комментариями.
+</p>
+</div>
+</div>
 </div>
 </section>
-<section id="privacy" class="section">
+<section id="privacy" class="section privacy">
+<div class="container privacy-grid">
+<div>
+<h2>
+Анонимность гарантирована
+</h2>
+<p>
+Проект создан не для оценки отдельных сотрудников,
+а для улучшения процессов, условий работы и коммуникации внутри SIMS-2.
+</p>
+</div>
+<div class="privacy-box">
+<h3>
+Мы не собираем
+</h3>
+<ul>
+<li>ФИО</li>
+<li>Электронную почту</li>
+<li>Номер телефона</li>
+<li>Персональные контакты</li>
+<li>Данные, позволяющие идентифицировать сотрудника</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="section meeting">
+<div class="container meeting-box">
+<h2>
+Полугодовые встречи с руководством
+</h2>
+<p>
+Каждые полгода руководство SIMS-2 встречается с сотрудниками,
+чтобы обсудить важные темы, вопросы и предложения.
+Голос SIMS-2 помогает сформировать повестку встречи
+</p>
+<div class="badges">
+<span>
+Вопросы сотрудников
+</span>
+<span>
+Идеи по улучшениям
+</span>
+<span>
+Повторяющиеся темы
+</span>
+<span>
+Решения руководства
+</span>
+</div>
+</div>
+</section>
+<section id="form" class="section form-section">
 <div class="container">
-    <h2>Анонимность гарантирована</h2>
-    <ul>
-        <li>Мы не собираем ФИО</li>
-        <li>Мы не собираем телефоны</li>
-        <li>Мы не собираем почту</li>
-        <li>Мы не отслеживаем авторов сообщений</li>
-    </ul>
+<div class="section-title">
+<h2>
+Оставить обратную связь
+</h2>
+<p>
+Напишите вопрос, идею или предложение.
+Чем конкретнее описание — тем проще рассмотреть тему.
+</p>
+</div>
+<div class="form-box">
+<div class="form-placeholder">
+<h3>
+Здесь будет форма
+</h3>
+<p>
+Замените этот блок на Tally или Google Forms
+</p>
+</div>
+</div>
 </div>
 </section>
-<section id="form" class="section">
+</main>
+<footer class="footer">
 <div class="container">
-    <h2>Оставить обращение</h2>
-    <!-- СЮДА ВСТАВИТЬ TALLY -->
-    <div class="form-placeholder">
-        Здесь будет форма Tally
-    </div>
+SIMS-2 · Голос SIMS-2
 </div>
-</section>
-<script src="script.js"></script>
+</footer>
 </body>
-</html>
+</html>.
+
